@@ -38,26 +38,6 @@ The notebook loads the date, time, and active power columns, converts the readin
 
 Linear Regression outperforms the baseline, particularly in RMSE. However, the R² of **0.467** shows that forecasting performance remains limited and could be improved.
 
-## Run the Notebook
-
-1. Download `household_power_consumption.txt` from the UCI or Kaggle source above.
-2. Place it **in the same folder** as `Household_Energy_Consumption_Prediction.ipynb` (rename the downloaded file if it has a suffix such as `(1)`).
-3. Install the required Python packages:
-
-   ```bash
-   pip install notebook pandas matplotlib seaborn scikit-learn
-   ```
-
-4. Open the notebook in Jupyter and choose **Run All**.
-
-> **Note:** The original raw dataset is large. It does not need to be committed to GitHub; downloading it from the original source also makes the repository easier to manage. The notebook expects the raw file locally.
-
-## Files
-
-- `Household_Energy_Consumption_Prediction.ipynb` — analysis, visualizations, regression model and evaluation
-- `README.md` — project overview and reproduction instructions
-- `household_power_consumption.txt` — source data (download separately unless included in your repository)
-
 ## Conclusion
 
 The project demonstrates a simple, reproducible approach to **one-step-ahead time series forecasting** with Linear Regression. Future work could explore nonlinear models, richer time-based features and better handling of high-demand periods.
